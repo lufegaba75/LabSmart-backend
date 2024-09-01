@@ -29,14 +29,13 @@ public class AuthService {
                     .lastName(request.getLastName())
                     .password(passwordEncoder.encode(request.getPassword()))
                     .role(Role.USER)
+                    .isActive(true)
                     .build();
             userRepository.save(user);
             return AuthResponse.builder()
                     .token(jwtService.generateToken(user))
                     .build();
         }
-
-
     }
 
     public AuthResponse login (LoginRequest request) {

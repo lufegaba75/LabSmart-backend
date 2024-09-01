@@ -1,5 +1,6 @@
 package com.lufegaba.labsmart.auth;
 
+import com.lufegaba.labsmart.auth.entities.LabUser;
 import com.lufegaba.labsmart.auth.entities.dtos.UserDto;
 import com.lufegaba.labsmart.repositories.IUserRepository;
 import lombok.AllArgsConstructor;

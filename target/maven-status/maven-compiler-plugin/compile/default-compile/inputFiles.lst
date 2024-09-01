@@ -1,0 +1,17 @@
+/Users/lufegaba75/Documents/GitHub/LabSmart-backend/src/main/java/com/lufegaba/labsmart/LabSmartApplication.java
+/Users/lufegaba75/Documents/GitHub/LabSmart-backend/src/main/java/com/lufegaba/labsmart/auth/AuthController.java
+/Users/lufegaba75/Documents/GitHub/LabSmart-backend/src/main/java/com/lufegaba/labsmart/auth/AuthService.java
+/Users/lufegaba75/Documents/GitHub/LabSmart-backend/src/main/java/com/lufegaba/labsmart/auth/CustomUserDetailsService.java
+/Users/lufegaba75/Documents/GitHub/LabSmart-backend/src/main/java/com/lufegaba/labsmart/auth/entities/AuthResponse.java
+/Users/lufegaba75/Documents/GitHub/LabSmart-backend/src/main/java/com/lufegaba/labsmart/auth/entities/LabUser.java
+/Users/lufegaba75/Documents/GitHub/LabSmart-backend/src/main/java/com/lufegaba/labsmart/auth/entities/LoginRequest.java
+/Users/lufegaba75/Documents/GitHub/LabSmart-backend/src/main/java/com/lufegaba/labsmart/auth/entities/Permission.java
+/Users/lufegaba75/Documents/GitHub/LabSmart-backend/src/main/java/com/lufegaba/labsmart/auth/entities/RegisterRequest.java
+/Users/lufegaba75/Documents/GitHub/LabSmart-backend/src/main/java/com/lufegaba/labsmart/auth/entities/Role.java
+/Users/lufegaba75/Documents/GitHub/LabSmart-backend/src/main/java/com/lufegaba/labsmart/auth/entities/dtos/UserDto.java
+/Users/lufegaba75/Documents/GitHub/LabSmart-backend/src/main/java/com/lufegaba/labsmart/auth/entities/mappers/UserMapper.java
+/Users/lufegaba75/Documents/GitHub/LabSmart-backend/src/main/java/com/lufegaba/labsmart/auth/jwt/JwtAuthenticationFilter.java
+/Users/lufegaba75/Documents/GitHub/LabSmart-backend/src/main/java/com/lufegaba/labsmart/auth/jwt/JwtService.java
+/Users/lufegaba75/Documents/GitHub/LabSmart-backend/src/main/java/com/lufegaba/labsmart/configs/SecurityConfig.java
+/Users/lufegaba75/Documents/GitHub/LabSmart-backend/src/main/java/com/lufegaba/labsmart/controllers/UserController.java
+/Users/lufegaba75/Documents/GitHub/LabSmart-backend/src/main/java/com/lufegaba/labsmart/repositories/IUserRepository.java

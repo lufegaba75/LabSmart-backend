@@ -43,9 +43,6 @@ public class LabUser implements UserDetails {
     @Enumerated(EnumType.STRING)
     private Role role;
 
-    @ColumnDefault("true")
-    private boolean isClient;
-
     @CreationTimestamp
     private LocalDateTime created;
 

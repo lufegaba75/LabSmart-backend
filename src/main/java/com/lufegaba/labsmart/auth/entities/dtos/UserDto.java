@@ -20,6 +20,7 @@ public class UserDto {
     String email;
     Boolean isActive;
     Role role;
+    boolean isWorker;
     LocalDateTime createdAt;
     LocalDateTime updatedAt;
 
