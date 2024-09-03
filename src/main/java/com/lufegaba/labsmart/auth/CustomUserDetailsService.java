@@ -10,6 +10,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 @AllArgsConstructor
 public class CustomUserDetailsService implements UserDetailsService {
@@ -19,5 +21,9 @@ public class CustomUserDetailsService implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
         return userRepository.findByEmail(email).orElseThrow();
+    }
+
+    public List<LabUser> getAllUsers() {
+        return userRepository.findAll();
     }
 }
