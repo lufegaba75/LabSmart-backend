@@ -41,6 +41,7 @@ public class SecurityConfig {
         http.authorizeHttpRequests(
                 request -> request
                                 .requestMatchers("auth/**").permitAll()
+                                .requestMatchers( "users/**").hasAnyAuthority("ADMIN","WORKER","USER")
                                 .anyRequest().authenticated());
         http.sessionManagement(
                 manager -> manager.sessionCreationPolicy(SessionCreationPolicy.STATELESS));

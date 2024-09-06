@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping(name = "/users")
+@RequestMapping(value = "/users")
 @RequiredArgsConstructor
 @CrossOrigin(origins = "http://localhost:4200")
 public class UserController {
@@ -28,7 +28,9 @@ public class UserController {
         users.forEach( user -> {
            var userDto = mapper.UserToDto(user);
            usersDto.add(userDto);
+            System.out.println(userDto.getEmail());
         });
+
         return ResponseEntity.ok(usersDto);
     }
 
